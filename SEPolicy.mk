@@ -1,6 +1,6 @@
 # Board specific SELinux policy variable definitions
 ifeq ($(call is-vendor-board-platform,QCOM),true)
-SEPOLICY_PATH:= device/qcom/sepolicy_vndr
+SEPOLICY_PATH:= device/qcom/sepolicy_vndr-legacy-um
 QSSI_SEPOLICY_PATH:= device/qcom/sepolicy
 SYS_ATTR_PROJECT_PATH := $(TOP)/device/qcom/sepolicy/generic/public/attribute
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR := \
